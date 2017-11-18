@@ -1,0 +1,15 @@
+/* Admin theme css */
+
+.skill-percent {
+	width: 20%;
+	display: inline;	
+}
+
+.skill-name {
+	width: 68%!important;
+	display: inline;
+}
+
+.skill-remove {
+	width: 10%;
+}
