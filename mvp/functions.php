@@ -112,6 +112,15 @@ function mvp_widgets_init() {
 		'before_title'  => '<h2 class="heading">',
 		'after_title'   => '</h2>',
 	) );
+
+	register_sidebar( array(
+		'name'          => esc_html__( 'Post widget area', 'mvp' ),
+		'id'            => 'post-widget-area',
+		'before_widget' => '<section id="%1$s" class="widget %2$s section"><div class="section-inner">',
+		'after_widget'  => '</div></section>',
+		'before_title'  => '<h2 class="heading">',
+		'after_title'   => '</h2>',
+	) );
 }
 add_action( 'widgets_init', 'mvp_widgets_init' );
 
@@ -165,28 +174,7 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/jetpack.php';
 
-
 /**
- * Generate breadcrumbs
- * @author CodexWorld
- * @authorURL www.codexworld.com
+ * Load breadcrumbs
  */
-function get_breadcrumb() {
-    echo '<a href="'.home_url().'" rel="nofollow">Home</a>';
-    if (is_category() || is_single()) {
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
-        the_category(' &bull; ');
-            if (is_single()) {
-                echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
-                the_title();
-            }
-    } elseif (is_page()) {
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
-        echo the_title();
-    } elseif (is_search()) {
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
-        echo '"<em>';
-        echo the_search_query();
-        echo '</em>"';
-    }
-}
+require get_template_directory() . '/inc/breadcrumbs.php';

@@ -173,6 +173,12 @@ function wptutsplus_customize_colors() {
 	}
 	
 	/* secondary color */
+	.btn-view-more,
+	.nav-previous,
+	.nav-next {
+		background-color: <?php echo $color_scheme_2; ?>;
+	}
+	
 	.menu.main,
 	.fatfooter {
 		border-top: 1px solid <?php echo $color_scheme_2; ?>;
