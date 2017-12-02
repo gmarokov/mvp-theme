@@ -17,6 +17,7 @@ get_header(); ?>
 			if ( have_posts() ) : ?>
 
 				<?php //TODO Remove it or now? 
+				// TODO if has desc, display title and desc in box
 				// <header class="page-header">
 				// 	<?php
 				// 		// the_archive_title( '<h2 class="page-title">', '</h2>' );

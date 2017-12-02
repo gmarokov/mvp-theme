@@ -31,7 +31,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
 # Footer
 # Sections
 # Navigation
-  ## Search bar
 	## Right pushy menu
 	## Links
 	## Menus
@@ -563,6 +562,7 @@ h2.desc b#cursor {
   padding: 10px 15px;
   font-size: 1.4em;
   border-radius: 4px;
+  max-width: 48%;
 }
 
 .nav-previous {
@@ -900,6 +900,68 @@ h2.desc b#cursor {
 	outline: 0;
 }
 
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widget_categories ul,
+.widget_archive ul,
+.widget_recent_comments ul,
+.widget_meta ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget_categories ul li,
+.widget_archive ul li,
+.widget_recent_comments ul li,
+.widget_meta ul li {
+  padding: 0.4em 0; 
+  border-bottom: 1px solid #ddd;
+  font-size: 1.2em;
+}
+
+.widget_categories ul li:last-child,
+.widget_archive ul li:last-child,
+.widget_recent_comments ul li:last-child,
+.widget_meta ul li:last-child {
+  border-bottom: none;
+}
+
+.widget_categories form select,
+.widget_archive select,
+.widget_meta select {
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.widget_recent_comments ul li:before {
+  content: "\f075";  /* this is your text. You can also use UTF-8 character codes as I do here */
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+
+.widget_search label{
+  max-width: 75%;
+}
+
+.widget_search input[type="search"] {
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.widget_search .search-form input[type="submit"] {
+  padding: 10px;
+  font-size: 1.1em;
+  border-radius: 4px;
+  border: none;
+  line-height: 1.5;
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Content

@@ -35,8 +35,11 @@ function get_breadcrumb() {
     } 
     elseif (is_search()) {
         echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
-        echo '"<em>';
-        echo the_search_query();
-        echo '</em>"';
+        
+        if ( ! empty( get_search_query() ) ) {
+            echo '"<em>';
+            echo get_search_query();
+            echo '</em>"';
+        }
     }
 }

@@ -23,12 +23,7 @@
     <meta name="author" content="<?php bloginfo( 'name' ); ?>">    
     <link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" href="favicon.ico">  
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/TextPlugin.min.js"></script>
-
-
-          
+      
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -42,7 +37,11 @@
 		<div class="overlay"></div>
 		<!-- Sidebar navigation-->
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'sidebar-menu', 'menu_id' => 'primary-menu', 'menu_class' => 'nav sidebar-nav') ); ?>
+			<?php wp_nav_menu( array( 
+				'theme_location' => 'sidebar-menu', 
+				'menu_id' => 'primary-menu', 
+				'menu_class' => 'nav sidebar-nav') ); 
+			?>
 		</nav>
 
 		<div id="page" class="site">
