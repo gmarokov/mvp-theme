@@ -20,7 +20,8 @@
 						'menu_class' => 'nav footer-nav') ); 
 					?>
 					<small class="copyright">
-						<a href="https://github.com/gmarokov/mvp-theme" target="_blank">Theme MVP</a> for Most Valuable Professionals
+						Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a>
+						with <a href="https://github.com/gmarokov/mvp-theme" target="_blank">Theme MVP</a> for Most Valuable Professionals
 					</small>
 				</div><!--//container-->
 			</footer><!-- #colophon -->
