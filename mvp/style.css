@@ -590,16 +590,20 @@ h2.desc b#cursor {
   text-decoration: none
 }
 
-
-
 /*--------------------------------------------------------------
 ## Right pushy menu
 --------------------------------------------------------------*/
-.nav .open > a { background-color: transparent; }
+.nav .open > a { 
+  background-color: transparent; 
+}
 
-.nav .open > a:hover { background-color: transparent; }
+.nav .open > a:hover { 
+  background-color: transparent; 
+}
 
-.nav .open > a:focus { background-color: transparent; }
+.nav .open > a:focus {
+   background-color: transparent; 
+}
 
 /* Wrappers  */
 #wrapper {
@@ -611,9 +615,13 @@ h2.desc b#cursor {
   transition: all 0.5s ease;
 }
 
-#wrapper.toggled { padding-right: 220px; }
+#wrapper.toggled { 
+  padding-right: 220px; 
+}
 
-#wrapper.toggled #sidebar-wrapper { width: 220px; }
+#wrapper.toggled #sidebar-wrapper { 
+  width: 220px; 
+}
 
 #wrapper.toggled #page-content-wrapper {
   margin-right: -220px;
@@ -636,6 +644,7 @@ h2.desc b#cursor {
   width: 0;
   z-index: 1000;
 }
+
 #sidebar-wrapper::-webkit-scrollbar {
  display: none;
 }
@@ -646,6 +655,9 @@ h2.desc b#cursor {
 }
 
 /* Sidebar nav styles */
+.sidebar-nav-logged {
+  margin-top:30px;
+}
 
 .sidebar-nav {
   list-style: none;
@@ -679,27 +691,6 @@ h2.desc b#cursor {
   z-index: -1;
 }
 
-.sidebar-nav li:first-child a {
-  background-color: #1a1a1a;
-  color: #ffffff;
-}
-
-.sidebar-nav li:before { background-color: #52418a; }
-
-.sidebar-nav li:nth-child(3):before { background-color: #5c499c; }
-
-.sidebar-nav li:nth-child(4):before { background-color: #6651ad; }
-
-.sidebar-nav li:nth-child(5):before { background-color: #7562b5; }
-
-.sidebar-nav li:nth-child(6):before { background-color: #8473be; }
-
-.sidebar-nav li:nth-child(7):before { background-color: #9485c6; }
-
-.sidebar-nav li:nth-child(8):before { background-color: #a396ce; }
-
-.sidebar-nav li:nth-child(9):before { background-color: #b2a7d6; }
-
 .sidebar-nav li:hover:before {
   -webkit-transition: width 0.2s ease-in;
   transition: width 0.2s ease-in;
@@ -730,8 +721,13 @@ h2.desc b#cursor {
   width: 100%;
 }
 
-.sidebar-nav li a:hover, .sidebar-nav li a:active, .sidebar-nav li a:focus, .sidebar-nav li.open a:hover, .sidebar-nav li.open a:active, .sidebar-nav li.open a:focus {
-  background-color: transparent;
+.sidebar-nav li a:hover, 
+.sidebar-nav li a:active, 
+.sidebar-nav li a:focus, 
+.sidebar-nav li.open a:hover, 
+.sidebar-nav li.open a:active, 
+.sidebar-nav li.open a:focus {
+  background-color: transparent!important;
   color: #ffffff;
   text-decoration: none;
 }

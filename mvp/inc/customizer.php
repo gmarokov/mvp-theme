@@ -151,11 +151,16 @@ function wptutsplus_customize_colors() {
 	<style>
 	/* Apply color scheme */
 	
-	/* main color */
-	.site-header {
+	/* Background color */
+	.site-header,
+	.sidebar-nav {
 		border-top: 10px solid <?php echo $color_scheme_1; ?>;
 	} 
-	.progress-bar {
+	
+	.progress-bar,
+	.hamburger.is-closed .hamb-top,
+	.hamburger.is-closed .hamb-middle,
+	.hamburger.is-closed .hamb-bottom {
 		background-color: <?php echo $color_scheme_1; ?>;
 	}
 	.section .heading {
@@ -172,11 +177,13 @@ function wptutsplus_customize_colors() {
 		color: <?php echo $color_scheme_1; ?>;
 	}
 	
-	/* secondary color */
+	/* Actions color */
 	.btn-view-more,
 	.nav-previous,
 	.nav-next,
-	.search-form input[type="submit"]  {
+	.search-form input[type="submit"],
+	.sidebar-nav li:hover,
+	.sidebar-nav li:focus  {
 		background-color: <?php echo $color_scheme_2; ?>;
 	}
 	

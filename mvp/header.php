@@ -37,10 +37,13 @@
 		<div class="overlay"></div>
 		<!-- Sidebar navigation-->
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-			<?php wp_nav_menu( array( 
-				'theme_location' => 'sidebar-menu', 
-				'menu_id' => 'primary-menu', 
-				'menu_class' => 'nav sidebar-nav') ); 
+			<?php 
+				$isLooged = is_user_logged_in() ? "sidebar-nav-logged" : "";
+				
+				wp_nav_menu( array( 
+					'theme_location' => 'sidebar-menu', 
+					'menu_id' => 'primary-menu', 
+					'menu_class' => 'nav sidebar-nav '.$isLooged) ); 
 			?>
 		</nav>
 
