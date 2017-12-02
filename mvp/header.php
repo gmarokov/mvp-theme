@@ -48,7 +48,7 @@
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'mvp' ); ?></a>
 			<header id="masthead" class="site-header">
 				<div class="container">                       
-					<img class="profile-image img-responsive pull-left" src="<?php echo get_template_directory_uri();?>/images/profile.png" alt="James Lee" />
+					<img class="profile-image img-responsive img-circle pull-left" src="<?php echo get_template_directory_uri();?>/images/profile.png" alt="James Lee" />
 					<div class="profile-content pull-left">
 						<h1 class="name"><?php bloginfo( 'name' ); ?></h1> 
 						<h2 id="description-title" class="desc"><?php //echo get_bloginfo( 'description', 'display' ); ?>
