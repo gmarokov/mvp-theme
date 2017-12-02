@@ -548,6 +548,10 @@ h2.desc b#cursor {
   font-size: 14px;
 }
 
+.no-results p {
+  font-size: 1.3em;
+}
+
 
 /*--------------------------------------------------------------
 # Navigation
@@ -942,11 +946,12 @@ h2.desc b#cursor {
   margin-right: 5px;
 }
 
-.widget_search label{
+.search-form label {
+  width: 100%;
   max-width: 75%;
 }
 
-.widget_search input[type="search"] {
+.search-form input[type="search"] {
   padding: 10px;
   font-size: 1.1em;
   border-radius: 4px;
@@ -954,13 +959,14 @@ h2.desc b#cursor {
   border: 1px solid #ddd;
 }
 
-.widget_search .search-form input[type="submit"] {
+.search-form input[type="submit"] {
   padding: 10px;
   font-size: 1.1em;
   border-radius: 4px;
   border: none;
   line-height: 1.5;
   color: white;
+  width: 23%;
 }
 
 /*--------------------------------------------------------------

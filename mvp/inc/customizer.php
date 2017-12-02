@@ -130,18 +130,18 @@ add_action( 'customize_preview_init', 'mvp_customize_preview_js' );
 
 function wptutsplus_customize_colors() {
 	/**********************
-	text colors
+	* Text colors
 	**********************/
-	// main color
+	// Background color
 	$color_scheme_1 = get_option( 'color_scheme_1' );
 
-	// secondary color
+	// Actions color
 	$color_scheme_2 = get_option( 'color_scheme_2' );
 
-	// link color
+	// Links color
 	$link_color = get_option( 'link_color' );
 
-	// hover or active link color
+	// Hover links color
 	$hover_link_color = get_option( 'hover_link_color' );
 
 	/****************************************
@@ -176,20 +176,10 @@ function wptutsplus_customize_colors() {
 	.btn-view-more,
 	.nav-previous,
 	.nav-next,
-	.widget_search .search-form input[type="submit"]  {
+	.search-form input[type="submit"]  {
 		background-color: <?php echo $color_scheme_2; ?>;
 	}
 	
-	.menu.main,
-	.fatfooter {
-		border-top: 1px solid <?php echo $color_scheme_2; ?>;
-	}
-	.menu.main {
-		border-bottom: 1px solid <?php echo $color_scheme_2; ?>;  
-	}
-	.fatfooter {
-		border-bottom: 1px solid <?php echo $color_scheme_2; ?>;
-	}
 	
 	/* links color */
 	a:link, a:visited { 

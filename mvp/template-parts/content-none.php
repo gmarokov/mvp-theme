@@ -9,12 +9,13 @@
 
 ?>
 
-<section class="no-results not-found">
-	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'mvp' ); ?></h1>
-	</header><!-- .page-header -->
-
-	<div class="page-content">
+<section class="section no-results not-found">
+	<?php /* TODO COMMENT OR DELETE
+		<header class="page-header">
+			<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'mvp' ); ?></h1>
+		</header><!-- .page-header -->
+	*/?>
+	<div class="section-inner">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
 
@@ -33,5 +34,5 @@
 				get_search_form();
 
 		endif; ?>
-	</div><!-- .page-content -->
+	</div><!-- .section-inner -->
 </section><!-- .no-results -->
