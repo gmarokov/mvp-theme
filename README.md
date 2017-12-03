@@ -1,7 +1,5 @@
 # mvp-theme
-[![Build Status](https://travis-ci.org/gmarokov/mvp-theme.svg?branch=master)](https://travis-ci.org/Automattic/_s)
-
-===
+[![Build Status](https://travis-ci.org/gmarokov/mvp-theme.svg?branch=master)](https://travis-ci.org/gmarokov/mvp-theme)
 
 MVP Theme for WordPress is portfolio theme for professional individuals. 
 The theme requires MVP-Widgets plugin to make the most of it. 
