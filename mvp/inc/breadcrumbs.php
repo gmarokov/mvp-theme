@@ -35,10 +35,10 @@ function get_breadcrumb() {
     } 
     elseif (is_search()) {
         echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
-        
-        if ( ! empty( get_search_query() ) ) {
+        $search_query = get_search_query();
+        if ( ! empty( $search_query ) ) {
             echo '"<em>';
-            echo get_search_query();
+            echo $search_query;
             echo '</em>"';
         }
     }
