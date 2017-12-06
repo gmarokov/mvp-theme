@@ -4,11 +4,12 @@
 MVP Theme for WordPress is portfolio theme for professional individuals. 
 The theme requires MVP-Widgets plugin to make the most of it. 
 The theme is inspired by Developer-Theme template from Xiaoying Riley https://github.com/xriley/Developer-Theme
+
 NOT PRODUCTION READY!
 
 Demo
 ---------------
-Demo can be found at my personal website: http://worldwildwebdev.com
+Demo can be found at: http://worldwildwebdev.com
 
 Features
 ---------------
@@ -25,9 +26,8 @@ Getting Started
 2. Activate the theme and install MVP-Widgets
 3. Make the settings by your choise to both plugin and theme.
 4. (Optional) You can use those plugins to extend even more:
+* SyntaxHighlighter Evolved
 
-
-If any issues, submit a pull request or raise issue. 
 
 Credits
 ---------------
