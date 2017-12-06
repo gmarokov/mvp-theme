@@ -17,7 +17,6 @@ Features
 * Set profile picture.
 * Link social profiles.
 * Use MVP-Widgets
-* Licensed under GPLv2 or later. :) Use it to make something cool.
 
 Getting Started
 ---------------
@@ -32,3 +31,4 @@ Getting Started
 Credits
 ---------------
 * Xiaoying Riley https://github.com/xriley/Developer-Theme
+* Licensed under GPLv2 or later. :) Use it to make something cool.
