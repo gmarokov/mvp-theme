@@ -153,7 +153,7 @@ function wptutsplus_customize_colors() {
 	
 	/* Background color */
 	.site-header,
-	.sidebar-nav {
+	#wrapper.toggled #sidebar-wrapper {
 		border-top: 10px solid <?php echo $color_scheme_1; ?>;
 	} 
 	

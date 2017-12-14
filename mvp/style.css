@@ -656,7 +656,7 @@ h2.desc b#cursor {
 
 /* Sidebar nav styles */
 .sidebar-nav-logged {
-  margin-top:30px!important;
+  margin-top:32px!important;
 }
 
 .sidebar-nav {
@@ -666,6 +666,8 @@ h2.desc b#cursor {
   position: absolute;
   top: 0;
   width: 220px;
+  padding: 2.4em 0 0 1em;
+  margin-left: 1em;
 }
 
 .sidebar-nav li {
@@ -1068,10 +1070,16 @@ h2.desc b#cursor {
   .project-image {
     margin-bottom: 15px;
   }
+  #wrapper.toggled { 
+    margin-left: -220px;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ 
+}
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
