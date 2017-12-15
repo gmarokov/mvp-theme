@@ -53,14 +53,16 @@
 					<div class="profile-content pull-left">
 						<h1 class="name"><?php bloginfo( 'name' ); ?></h1> 
 						<h2 id="description-title" class="desc"><?php //echo get_bloginfo( 'description', 'display' ); ?>
-							<span>HTML</span><b id="cursor">_</b>
+							<span>WEB DEV</span><b id="cursor">_</b>
 						</h2>
 						<ul class="social list-inline">
-							<li><a href="#"><i class="fa fa-twitter"></i></a></li>                   
-							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#"><i class="fa fa-github-alt"></i></a></li>                  
-							<li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>                 
+							<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
+							<li><a class="facebook" href="https://facebook.com/georgi.marokov" target="_blank"><i class="fa fa-facebook"></i></a></li>                     
+							<li><a class="gplus" href="#"><i class="fa fa-google-plus"></i></a></li>
+							<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+							<li><a class="github" href="#"><i class="fa fa-github-alt"></i></a></li>                  
+							<li><a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+							<li><a class="youtube" href="#"><i class="fa fa-youtube"></i></a></li>                    
 						</ul> 
 					</div><!--//profile-->
 					<div class="buttons-menu pull-right">           			

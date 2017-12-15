@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
 
-    //Moving letters
+    /*Moving letters */
     function switch_text(el,txt,delay,callback){
         setTimeout(function(){
           TweenLite.to(el,1,{text: {value:txt},onComplete:function(){
@@ -34,11 +34,11 @@ jQuery(document).ready(function($) {
     }
     
     function init(){
-        switch_text('#description-title span','HTML',0);
+        switch_text('#description-title span','WEB DEV',0);
         switch_text('#description-title span','JAVASCRIPT',2000);
-        switch_text('#description-title span','CSS',4000);
-        switch_text('#description-title span','WORDPRESS',6000);
-        switch_text('#description-title span','PHP',8000);
+        switch_text('#description-title span','ASP.NET',4000);
+        switch_text('#description-title span','PHP',6000);
+        switch_text('#description-title span','WORDPRESS',8000);
         switch_text('#description-title span','JUST CODE',10000,function(){
             // run again after 6s
             setTimeout(init,6000); 
@@ -56,7 +56,7 @@ jQuery(document).ready(function($) {
     init();
 
 
-    //Ham button
+    /*Ham button */
     jQuery(document).ready(function ($) {
         var trigger = $('.hamburger'),
             overlay = $('.overlay'),
