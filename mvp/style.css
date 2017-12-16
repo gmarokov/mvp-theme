@@ -1034,6 +1034,11 @@ h2.desc b#cursor {
   width: 23%;
 }
 
+.btn-primary {
+  color: white!important;
+  border: transparent!important;
+}
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/

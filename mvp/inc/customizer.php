@@ -184,8 +184,11 @@ function wptutsplus_customize_colors() {
 	.search-form input[type="submit"],
 	.sidebar-nav li:hover,
 	.sidebar-nav li:focus,
-	.btn-primary  {
-		background-color: <?php echo $color_scheme_2; ?>;
+	.btn-primary,
+	.btn-primary:hover,
+	.btn-primary:focus,
+	.btn-primary:active  {
+		background-color: <?php echo $color_scheme_2; ?> !important;
 	}
 	
 
