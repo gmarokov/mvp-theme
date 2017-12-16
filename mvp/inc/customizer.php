@@ -183,11 +183,12 @@ function wptutsplus_customize_colors() {
 	.nav-next,
 	.search-form input[type="submit"],
 	.sidebar-nav li:hover,
-	.sidebar-nav li:focus  {
+	.sidebar-nav li:focus,
+	.btn-primary  {
 		background-color: <?php echo $color_scheme_2; ?>;
 	}
 	
-	
+
 	/* links color */
 	a:link, a:visited { 
 		color:  <?php echo $link_color; ?>; 

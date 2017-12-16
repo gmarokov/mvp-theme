@@ -1,7 +1,9 @@
+/*
+* Main functions file wrapped in ready
+*/
 jQuery(document).ready(function($) {
 
-
-    /*======= Skillset *=======*/
+    /* Skillset */
     
     $('.level-bar-inner').css('width', '0');
     
@@ -22,7 +24,7 @@ jQuery(document).ready(function($) {
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
 
-    /*Moving letters */
+    /* Moving letters */
     function switch_text(el,txt,delay,callback){
         setTimeout(function(){
           TweenLite.to(el,1,{text: {value:txt},onComplete:function(){
@@ -49,7 +51,7 @@ jQuery(document).ready(function($) {
          $('#cursor').toggleClass('blink');
     }
     
-    // Bink the cursor
+    // Blink the cursor
     setInterval(blink,800); 
     
     // Init the magic
@@ -60,64 +62,30 @@ jQuery(document).ready(function($) {
     jQuery(document).ready(function ($) {
         var trigger = $('.hamburger'),
             overlay = $('.overlay'),
-           isClosed = false;
+            isClosed = false;
       
-          trigger.click(function () {
+        trigger.click(function () {
             hamburger_cross();      
-          });
+        });
       
-          function hamburger_cross() {
+        function hamburger_cross() {
       
             if (isClosed == true) {          
-              overlay.hide();
-              trigger.removeClass('is-open');
-              trigger.addClass('is-closed');
-              isClosed = false;
+                overlay.hide();
+                trigger.removeClass('is-open');
+                trigger.addClass('is-closed');
+                isClosed = false;
             } else {   
-              overlay.show();
-              trigger.removeClass('is-closed');
-              trigger.addClass('is-open');
-              isClosed = true;
+                overlay.show();
+                trigger.removeClass('is-closed');
+                trigger.addClass('is-open');
+                isClosed = true;
             }
         }
         
-    //  //Search button
-    // var s = $('input'),
-    // f  = $('form'),
-    // a = $('.after');
-
-    // s.focus(function(){
-    // if( f.hasClass('open') ) return;
-    // f.addClass('in');
-    // setTimeout(function(){
-    // f.addClass('open');
-    // f.removeClass('in');
-    // }, 1300);
-    // });
-
-    // a.on('click', function(e){
-    //     e.preventDefault();
-    //     if( !f.hasClass('open') ) return;
-    //     s.val('');
-    //     f.addClass('close');
-    //     f.removeClass('open');
-    //     setTimeout(function(){
-    //         f.removeClass('close');
-    //     }, 1300);
-    // })
-
-    // f.submit(function(e){
-    // e.preventDefault();
-    // f.addClass('explode');
-    // setTimeout(function(){
-    // s.val('');
-    // f.removeClass('explode');
-    // }, 3000);
-    // })
-
-    $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-    });  
+        $('[data-toggle="offcanvas"]').click(function () {
+            $('#wrapper').toggleClass('toggled');
+        });  
     });
     
     
@@ -158,6 +126,4 @@ jQuery(document).ready(function($) {
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     //GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
-
-
 });
