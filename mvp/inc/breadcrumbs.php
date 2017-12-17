@@ -42,4 +42,8 @@ function get_breadcrumb() {
             echo '</em>"';
         }
     }
+    elseif (is_404()) {
+        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        echo "Error: Page nout found";
+    }
 }
