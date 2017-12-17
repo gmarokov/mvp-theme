@@ -57,9 +57,9 @@
 						</h2>
 						<ul class="social list-inline">
 							<li><a class="facebook" href="https://facebook.com/georgi.marokov" target="_blank"><i class="fa fa-facebook"></i></a></li>                     
-							<li><a class="linkedin" href="https://www.linkedin.com/in/georgi-marokov-019a79b7/"><i class="fa fa-linkedin"></i></a></li>
-							<li><a class="github" href="https://github.com/gmarokov"><i class="fa fa-github-alt"></i></a></li>                  
-							<li><a class="pinterest" href="https://www.pinterest.com/georgimarokov/"><i class="fa fa-pinterest-p"></i></a></li>             
+							<li><a class="linkedin" href="https://www.linkedin.com/in/georgi-marokov-019a79b7/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+							<li><a class="github" href="https://github.com/gmarokov"><i class="fa fa-github-alt" target="_blank"></i></a></li>                  
+							<li><a class="pinterest" href="https://www.pinterest.com/georgimarokov/" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>             
 						</ul> 
 					</div><!--//profile-->
 					<div class="buttons-menu pull-right">           			

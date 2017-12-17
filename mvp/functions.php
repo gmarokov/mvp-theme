@@ -180,3 +180,13 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load breadcrumbs
  */
 require get_template_directory() . '/inc/breadcrumbs.php';
+
+function mvp_add_custom_types( $query ) {
+	if( is_category() || is_tag() || is_date() && empty( $query->query_vars['suppress_filters'] ) ) {
+	  	$query->set( 'post_type', array(
+	   		'post', 'mvp_projects'
+		));
+		return $query;
+	}
+}
+add_filter( 'pre_get_posts', 'mvp_add_custom_types' );

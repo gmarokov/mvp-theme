@@ -1128,11 +1128,16 @@ h2.desc b#cursor {
 @media (max-width: 767px) {
   .site-header {
     text-align: center;
+    padding: 10px 0;
   }
   .site-header .profile-image {
     float: none !important;
     margin: 0 auto;
-    width: 150px;
+    width: 120px;
+  }
+  .site-header .profile-content .name {
+    margin-top: 10px;
+    font-size: 34px;
   }
   .site-header .profile-content .desc {
     text-align: center;
@@ -1140,6 +1145,9 @@ h2.desc b#cursor {
   .site-header .profile-content {
     float: none !important;
     text-align: center;
+  }
+  .site-header .social {
+    float: left;
   }
   .site-header .btn {
     margin-top: 30px;
@@ -1149,14 +1157,17 @@ h2.desc b#cursor {
     margin-bottom: 15px;
   }
   .site-header .buttons-menu {
-    float: none!important;
-    margin-top: 30px;
+    margin-top: 3px;
   }
   .site-header .buttons-menu button {
     margin-left: 0;
   }
   #wrapper.toggled { 
-    margin-left: -120px;
+    margin-left: -50px;
+  }
+  .sections-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
