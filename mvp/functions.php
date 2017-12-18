@@ -182,9 +182,9 @@ require get_template_directory() . '/inc/jetpack.php';
 require get_template_directory() . '/inc/breadcrumbs.php';
 
 function mvp_add_custom_types( $query ) {
-	if( is_category() || is_tag() || is_date() && empty( $query->query_vars['suppress_filters'] ) ) {
+	if( ( is_category() || is_tag() || is_date() ) && $query->is_main_query() && empty( $query->query_vars['suppress_filters'] ) ) {
 	  	$query->set( 'post_type', array(
-	   		'post', 'mvp_projects'
+	   		'post', 'nav_menu_item', 'mvp_projects'
 		));
 		return $query;
 	}

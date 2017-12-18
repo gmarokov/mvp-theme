@@ -45,7 +45,7 @@ get_header(); ?>
 						'next_text' => __( 'Next <i class="fa fa-chevron-right" aria-hidden="true"></i>', 'mvp' ),
 					) 
 				);
-
+				wp_reset_postdata();
 			else :
 
 				get_template_part( 'template-parts/content', 'none' );

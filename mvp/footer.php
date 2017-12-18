@@ -25,10 +25,12 @@
 						<li><a class="github" href="https://github.com/gmarokov"><i class="fa fa-github-alt"></i></a></li>                  
 						<li><a class="pinterest" href="https://www.pinterest.com/georgimarokov/"><i class="fa fa-pinterest-p"></i></a></li>             
 					</ul> 
-					<small class="copyright">
+					<div class="copyright">
+						<small>
 						Proudly powered by <a href="http://wordpress.org" target="_blank">WordPress</a>
 						with <a href="https://github.com/gmarokov/mvp-theme" target="_blank">Theme MVP</a> for Most Valuable Professionals
-					</small>
+						</small>
+					</div>
 				</div><!--//container-->
 			</footer><!-- #colophon -->
         </div><!-- #page -->
