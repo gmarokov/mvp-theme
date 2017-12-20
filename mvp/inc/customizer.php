@@ -169,7 +169,14 @@ function wptutsplus_customize_colors() {
 	.vertical-list h3 {
 		color: <?php echo $color_scheme_1; ?>;
 	}
-	#site-title a, h1, h2, h2.page-title, h2.post-title, h2 a:link, h2 a:visited, .menu.main a:link, .menu.main a:visited, footer h3 { 
+	#site-title a, 
+	h2.page-title, 
+	h2.post-title, 
+	h2 a:link, 
+	h2 a:visited, 
+	.menu.main a:link, 
+	.menu.main a:visited, 
+	footer h3 { 
 		color:  <?php echo $color_scheme_1; ?>; 
 	}
 

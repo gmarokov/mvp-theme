@@ -1099,6 +1099,31 @@ h2.desc b#cursor {
   padding: 5px 10px;
 }
 
+/* Contacts page */
+.contact-form label, 
+.contact-form input, 
+.contact-form textarea { 
+  display: block; 
+  margin: 10px 0; 
+}
+
+.contact-form label { 
+  font-size: larger; 
+}
+
+.contact-form input { 
+  padding: 5px; 
+}
+
+#cf_message { 
+  width: 90%; 
+  padding: 10px; 
+}
+
+#cf_send { 
+  padding: 5px 10px;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
