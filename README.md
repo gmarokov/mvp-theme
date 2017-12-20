@@ -30,5 +30,5 @@ Getting Started
 
 Credits
 ---------------
-* Xiaoying Riley https://github.com/xriley/Developer-Theme
+* Xiaoying Riley https://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/ (Creative Commons Attribution 3.0 License)
 * Licensed under GPLv2 or later. :) Use it to make something cool.
