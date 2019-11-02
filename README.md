@@ -9,7 +9,7 @@ NOT PRODUCTION READY!
 
 Demo
 ---------------
-Demo can be found at: http://worldwildwebdev.com
+Demo can be found at: http://worldwildweb.dev
 
 Features
 ---------------
@@ -17,16 +17,6 @@ Features
 * Set profile picture.
 * Link social profiles.
 * Use MVP-Widgets
-
-Getting Started
----------------
-
-1. Download the repository and place it inside your wp-content/themes folder.
-2. Activate the theme and install MVP-Widgets
-3. Make the settings by your choise to both plugin and theme.
-4. (Optional) You can use those plugins to extend even more:
-* SyntaxHighlighter Evolved
-
 
 Credits
 ---------------
